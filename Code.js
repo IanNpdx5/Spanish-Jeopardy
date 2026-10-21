@@ -187,15 +187,13 @@ function askQuestion(item, clickedButton) {
     const revealAnswer = () => {
         if (revealButton.disabled) {
             return;
-        }
-
-        if (clickedButton) {
+        } else if (clickedButton) {
             clickedButton.disabled = true;
             clickedButton.classList.add('used');
             clickedButton.classList.remove('available');
             clickedButton.style.opacity = '0.9';
 
-            //points[currentTeamOnDeck] = value;
+            // TODO: points[currentTeamOnDeck] = value;
         }
 
         answerText.textContent = item.answer;
@@ -219,7 +217,7 @@ function askQuestion(item, clickedButton) {
         }
     };
 
-    revealButton.addEventListener('click', revealAnswer());
+    revealButton.addEventListener('click', revealAnswer);
     backButton.addEventListener('click', closeOverlay);
     overlay.addEventListener('click', (event) => {
         if (event.target === overlay) {
