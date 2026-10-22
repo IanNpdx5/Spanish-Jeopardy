@@ -193,7 +193,9 @@ function askQuestion(item, clickedButton) {
             clickedButton.classList.remove('available');
             clickedButton.style.opacity = '0.9';
 
-            // TODO: points[currentTeamOnDeck] = value;
+            // TODO: DO THIS!
+            // points[currentTeamOnDeck] += value;
+            // currentTeamOnDeck += 1;
         }
 
         answerText.textContent = item.answer;
