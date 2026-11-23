@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: "Orbitron", Arial, sans-serif;
+    font-family: "Orbitron", 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     background: linear-gradient(180deg, #f4f7fb 0%, #dfeaf7 100%);
     color: #101820;
     font-size: 0.8em;
@@ -11,7 +11,7 @@ body {
 }
 
 button {
-    font-family: "Orbitron", Arial, sans-serif;
+    font-family: "Orbitron", 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
 #page {
