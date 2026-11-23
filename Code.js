@@ -1,5 +1,5 @@
 const defaultBank = [
-    "Spanish Jeopardy - Interactive Vocabulary &amp; Trivia Game",
+    "Spanish Jeopardy",
 
     ["Translation", "History", "Answer It", "Berto Y Sus Amigos", "Cuartro Misterioso"],
 
