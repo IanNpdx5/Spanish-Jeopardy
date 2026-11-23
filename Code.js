@@ -1,5 +1,5 @@
 const defaultBank = [
-    "Spanish Jeopardy - Interactive Trivia Board",
+    "Spanish Jeopardy - Interactive Vocabulary &amp; Trivia Game",
 
     ["Translation", "History", "Answer It", "Berto Y Sus Amigos", "Cuartro Misterioso"],
 
@@ -262,8 +262,6 @@ function askQuestion(item, clickedButton) {
 }
 
 $(function () {
-    document.title = jName;
-    
     document.querySelector('#resetBtn').textContent = jName || "ERROR!";
 
     const titles = document.querySelectorAll('#options h3');
